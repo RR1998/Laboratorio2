@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+
+<html lang = "eng">
+    <head>
+        <meta charset="UTF-8">
+        <title>Curriculum Vitae</title>
+    </head>
+    <body>
+        <header>
+            <h1>Curriculum Vitae</h1>
+        </header>
+        <section>
+        <fieldset>
+            <legend>Personal Data</legend>
+            DUI:<input type = "text" placeholder = "DUI">
+            First Name:<input type="text" placeholder="Nombres">
+            Last Name:<input type = "text">
+            Gender:<input type = "radio" value="Hombre" name="Gender">Hombre
+                   <input type = "radio" value="Mujer" name="Gender">Mujer
+                   <input type = "radio" value="Otro" name="Gender">Otro
+
+            Email:<input type = "email">
+            <br>
+            Contact Number:<input type = "text">
+            
+            Birthdate<input type = "date">
+            Civil Status:
+            <select>
+                <option value="Solterto" name = "Civil">Solterto</option>
+                <option value="pareja" name = "Civil">Con pareja</option>
+                <option value="milagro" name = "Civil">Esperando el milagro</option>
+            </select>
+            image:<input type = "file">
+        </fieldset>
+        </section>
+        <section>
+        <fieldset>
+            <legend>Work Experience</legend>
+            <textarea cols="100" rows="10" placeholder="Experience"></textarea>
+        </fieldset>
+        </section>
+        <section>
+            <article>
+            <fieldset>
+            <legend>Academic Training</legend>
+            <textarea cols = "100" rows "10" placeholder="Academic Training"></textarea>
+        </fieldset>
+            </article>
+            <article>
+                <fieldset>
+                    <legend>Further Training</legend>
+                    <fieldset>
+                        <legend>Programing Languages</legend>
+                        <input type = "checkbox" name ="Programing" value="Java">Java
+                        <input type = "checkbox" name ="Programing" value="C#">C#
+                        <input type = "checkbox" name ="Programing" value="Python">Python
+                        <input type = "checkbox" name ="Programing" value ="C++">C++
+                        <input type = "checkbox" name ="Programing" value ="Ruby">Ruby
+                    </fieldset>
+                    <fieldset>
+                        <legend>Web Tecnologies</legend>
+                        <input type = "checkbox" name ="Tecnologies" value = "HTML5"HTML5
+                        <input type = "checkbox" name ="Tecnologies" value= "CSS/CSS3">CSS/CSS3
+                        <input type = "checkbox" name ="Tecnologies" value="Materialize CSS">Materialize CSS
+                        <input type = "checkbox" name ="Tecnologies" value="Javascript">Javascript
+                        <input type = "checkbox" name ="Tecnologies" value="Node.js">Node.js
+                        <input type = "checkbox" name ="Tecnologies" value="Spring">Spring MVC
+                    </fieldset>
+                </fieldset>
+            </article>
+        </section>
+        <section>
+            <article>
+            <button type="submit" formaction="https://www.google.com">Send</button>
+            <button type="submit" onclick="location.href = 'Index.html'">Cancel</button>
+            </article>
+        </section>
+    </body>
+</html>
